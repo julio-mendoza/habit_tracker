@@ -1,5 +1,5 @@
 ---
-name: User Stroy
+name: User Story
 about: Template to fill user stories
 title: "[USER STORY]"
 labels: enhancement
