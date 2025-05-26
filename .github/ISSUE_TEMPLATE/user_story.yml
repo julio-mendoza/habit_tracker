@@ -2,7 +2,7 @@ name: User Story
 about: Template to fill user stories
 title: "[USER STORY]"
 labels: enhancement
-assignees: ''
+assignees: []
 body:
   - type: textarea
     id: user_story
