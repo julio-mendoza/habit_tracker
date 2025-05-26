@@ -1,0 +1,57 @@
+# User Story Template
+name: User Story Template
+description: File a user story.
+title: "[User Story]: "
+labels: ["enhancement"]
+
+
+**Priority:** [High/Medium/Low]
+**Story Points:** [Estimated Effort in Points]
+**Notes:**
+- [Additional information or edge cases]
+
+
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: user_story
+    attributes:
+      label: User story description
+      description: Also tell us, what is expected for an specific role?
+      placeholder: Tell us what a role wants!
+      value: "As a [user role], I want [feature/goal], so that [reason]."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Please add the accesptance criteria.
+      placeholder: Tell us what is expected!
+      value: "1. [Criteria 1]\n2. [Criteria 2]\n3. [Criteria 3]"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: input
+    id: story_points
+    attributes:
+      label: Story Points
+      description: Estimated Effort in Points
+      placeholder: Estimated Effort in Points
+      value: "[Estimated Effort in Points]"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Please add any additional information.
+      placeholder: [Additional information or edge cases]
