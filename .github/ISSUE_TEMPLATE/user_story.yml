@@ -44,4 +44,4 @@ body:
   attributes:
     label: Notes
     description: Please add any additional information.
-    placeholder: [Additional information or edge cases]
+    placeholder: "[Additional information or edge cases]"
