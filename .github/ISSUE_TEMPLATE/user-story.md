@@ -1,4 +1,3 @@
----
 name: User Story
 about: Template to fill user stories
 title: "[USER STORY]"
